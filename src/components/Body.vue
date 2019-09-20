@@ -1,45 +1,6 @@
 <template>
-<div class="index">
-       <div class="header-boxed fixed-top header-classic" id="nav">
-            <!-- header classic -->
-            <div class="container">
-                <div class="header-boxed-style">
-                    <div class="row">
-                        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
-                            <a href="index-3.html" class="logo pt-1"><img src="../assets/images/logo-2.png"
-                                    alt=""></a>
-                        </div>
-                        <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
-                            <div class="d-xl-flex justify-content-end navigation-head">
-                                <div id="navigation" class="navigation">
-                                    <!-- navigation -->
-                                    <ul>
-                                        <li>
-                                            <a href="#">Home</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="#">About us </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="#">Contact us </a>
-
-                                        </li>
-                                        <li>
-                                            <a href="#">Services </a>
-
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /.header classic -->
-        <div class="slider slider-fourth">
+    <div>
+           <div class="slider slider-fourth">
             <!-- slider -->
             <div class="slider-carsoule owl-carousel owl-theme">
                 <div class="item">
@@ -49,8 +10,7 @@
                             <div class="col-xl-6 col-lg-6 col-md-9 col-sm-12 col-12">
                                 <div class="slider-captions">
                                     <h1 class="slider-title text-dark">Visas and Immigration Consultant WorldWide</h1>
-                                    <p class="slider-text text-dark"> The best place to find information and latest
-                                        updates on visas and Immigration.</p>
+                                    <p class="slider-text text-dark"> We want to be reputed as the swiftest, most reliable and ethical immigration firm in Ghana which fully satisfies the needs of clients. .</p>
                                     <a href="#" class="btn btn-primary btn-lg">Book Consultation Now</a>
                                 </div>
                             </div>
@@ -64,8 +24,7 @@
                             <div class="col-xl-6 col-lg-6 col-sm-8 col-sm-12 col-12">
                                 <div class="slider-captions">
                                     <h1 class="slider-title">Immigration &amp; Visa Consultants</h1>
-                                    <p class="slider-text">Proin venenatis orci felis, tincidunt sagittis mi lacinia
-                                        vitae. Vestibulum erat nisi, tincidunt vel lobortis eu, imperdiet eu sapien.</p>
+                                    <p class="slider-text">To be the leading Immigration consultancy firm in Ghana providing top notch services for clients.</p>
                                     <a href="#" class="btn btn-primary btn-lg">BOOK A CONSULTATION</a>
                                 </div>
                             </div>
@@ -79,9 +38,8 @@
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 col-sm-8 col-sm-12 col-12">
                                 <div class="slider-captions">
-                                    <h1 class="slider-title">World Most Trusted Immigration Company</h1>
-                                    <p class="slider-text">Vestibulum erat nisi, tincidunt vel lobortis eu, imperdiet eu
-                                        sapien. Proin venenatis orci felis, tincidunt sagittis mi lacinia vitae. </p>
+                                    <h1 class="slider-title">World Most Trusted Immigration Consultancy</h1>
+                                    <p class="slider-text">To help fast track resolutions for all immigration issues for our clients. </p>
                                     <a href="#" class="btn btn-primary btn-lg">BOOK A CONSULTATION</a>
                                 </div>
                             </div>
@@ -98,7 +56,7 @@
                         <div class="feature-blurb text-center px-4 pdt80 pdb100">
                             <div class="mb30 text-white"><i class="fas fa-check-circle fa-3x"></i></div>
                             <div class="feature-content">
-                                <h3 class="text-white">Excellence</h3>
+                                <h3 class="text-white">Confidentiality</h3>
                                 <p class="text-primary-light">Vestibulum placerat risus ac felis condimentum pulvinar
                                     neque, eget eleifend enim rutrum eget.</p>
                             </div>
@@ -108,7 +66,7 @@
                         <div class="feature-blurb text-center px-4 feature-bg  pdt80 pdb100">
                             <div class="mb30 text-white"><i class="fas fa-laugh fa-3x"></i></div>
                             <div class="feature-content">
-                                <h3 class="text-white">Customer Service</h3>
+                                <h3 class="text-white">Integrity</h3>
                                 <p class="text-primary-light">Pellentesque a mauris euismod, consequat tellus quis,
                                     elementum arcu. In hac habitasse platea dictumst. </p>
                             </div>
@@ -118,7 +76,7 @@
                         <div class="feature-blurb text-center px-4  pdt80 pdb100">
                             <div class="mb30 text-white"><i class="fas fa-check-circle fa-3x"></i></div>
                             <div class="feature-content">
-                                <h3 class="text-white">Integrity</h3>
+                                <h3 class="text-white">Up to date</h3>
                                 <p class="text-primary-light">Etiam sagittis vulputate pellent esque. Nunc vitae lectus
                                     semper, euismod tellus at, sagittis enim.</p>
                             </div>
@@ -135,9 +93,7 @@
                         <div class="section-title text-center">
                             <!-- section title start-->
                             <h2 class="mb-20">We also offer help with immigration to </h2>
-                            <p>Welcome to the website of the Visa in India. Various versions have evolved over the years
-                                on purpose<span class="text-default font-weight-bold"> (injected humour and the
-                                    like).</span></p>
+                            <p>Welcome to the website of the VisaGhana. We provide a wide range of services to meet the expectations of our clients.</p>
                         </div>
                         <!-- /.section title start-->
                     </div>
@@ -194,7 +150,7 @@
                             <div class="location-img zoomimg">
                                 <img src="../assets/images/location-img-5.jpg" alt="" class="img-fluid">
                                 <div class="location-img-overlay d-flex justify-content-between ">
-                                    <h3 class="pt-1 mb-0"><a href="#" class="text-white">Non Citizens Card</a></h3>
+                                    <h3 class="pt-1 mb-0"><a href="#" class="text-white">Non Citizen Card</a></h3>
                                     <i class="fas fa-id-card fa-2x" style="color: whitesmoke"></i>
                                 </div>
                             </div>
@@ -222,9 +178,8 @@
                     <div class="offset-lg-2 col-lg-8 col-md-12 col-sm-12 col-xs-12">
                         <div class="section-title text-center">
                             <!-- section title start-->
-                            <h2>Why Visapress Immigration?</h2>
-                            <p> Since our founding, our primary goal has been to provide immigration in all over country
-                                and universities. Our impact is speak louder than our word.</p>
+                            <h2>Why VisaGhana?</h2>
+                            <p> We ensure to carefully guide our clientele through an up to date web of rules, processes and forms on Ghana’s immigration regulations whilst aiming to uphold our values and ensuring the highest form of confidentiality to achieve a quick resolution on all Immigration issues.</p>
                         </div>
                         <!-- /.section title start-->
                     </div>
@@ -237,14 +192,11 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-7 col-sm-6 col-12">
                         <h1>Who we are &<br> What we do.</h1>
-                        <p class="lead font-weight-bold">We've been counselling students for Educational Opportunities
-                            in Foreign countries and have been helping them realise their dream of studying abroad.</p>
-                        <p>Aenean vestibulum ornare sapien, at pharetra massa consectetur et. Aliquam sit amet ipsum a
-                            lectus laoreet tempor in id arcu. Fusce venenatis lectus non est congue, vitae malesuada
-                            neque lacinia. Maecenas dolor leo, dignissim accumsan tortor in, bibendum suscipit tellus.
+                        <p id="text-italic">VisaGhana is an immigration advisory firm, established by experienced and registered Immigration professionals, which provides purposefully curated, timely and personalized solutions to immigration issues to and from Ghana.</p>
+                        <p>We ensure to carefully guide our clientele through an up to date web of rules, processes and forms on Ghana’s immigration regulations whilst aiming to uphold our values and ensuring the highest form of confidentiality to achieve a quick resolution on all Immigration issues. .
                         </p>
-                        <a href="#" class="btn btn-default">About visa press</a> <a href="#"
-                            class="btn btn-primary">Contact visa press</a>
+                        <a href="#" class="btn btn-default">About VisaGhana</a> <a href="#"
+                            class="btn btn-primary">Contact VisaGhana</a>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-5 col-sm-6 col-12">
                         <div class="about-img">
@@ -390,124 +342,15 @@
                 </div>
             </div>
         </div>
-     
-        <div class="tiny-footer-dark">
-            <!-- tiny footer -->
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                        <p>Copyright © 2019 <a href="#">VisaPress</a>. All Rights Reserved.</p>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                        <div class="footer-social-list">
-                            <ul class="listnone">
-                                <li><a href="#"><i class="fab fa-facebook social-icon"></i> </a></li>
-                                <li><a href="#"><i class="fab fa-twitter social-icon"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram social-icon"></i></a></li>
-                                <li><a href="#"><i class="fab fa-youtube social-icon"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin social-icon"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-</div>
-    
+    </div>
 </template>
 
 <script>
 export default {
-name:"Index",
-
-mounted () {
-    
-    $('.slider-carsoule').owlCarousel({
-        loop: true,
-        margin: 10,
-        autoplay: true,
-        nav: true,
-        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 1
-            },
-            1000: {
-                items: 1
-            }
-        }
-    })
-
-    $('.partner-logo-carousel').owlCarousel({
-        loop: true,
-        margin: 10,
-        autoplay: true,
-        dot: true,
-        nav: false,
-        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-        responsive: {
-            0: {
-                items: 2
-            },
-            600: {
-                items: 4
-            },
-            1000: {
-                items: 4
-            }
-        }
-    })
-
-
-    $('.post-carousel').owlCarousel({
-        loop: true,
-        margin: 10,
-        autoplay: true,
-        dot: true,
-        nav: false,
-        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 1
-            },
-            1000: {
-                items: 1
-            }
-        }
-    })
-
-    $('.carousel-1').owlCarousel({
-        loop: true,
-        margin: 10,
-        autoplay: true,
-        dot: true,
-        nav: true,
-        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 2
-            },
-            1000: {
-                items: 2
-            }
-        }
-    })
-
-  },
-created() {
-    this.$route.params.iso;
-    
+    name:"Body"
 }
-    
-}
-
 </script>
+
+<style scoped>
+
+</style>

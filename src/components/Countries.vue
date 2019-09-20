@@ -14,7 +14,7 @@
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 offset-xl-1 card-top">
            <div class="card shadow">
             <div class="card-body">
-                <h1 class="card-title">Lorem ipsum dolor</h1>
+                <h1 class="card-title text-center">VisaGhana</h1>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptates itaque numquam perspiciatis blanditiis autem, cupiditate non.</p>
                 <form @submit="navigateToPage">
                   <div class="form-group">
@@ -44,9 +44,6 @@
 <script>
 import axios from "axios";
 import API_URL from "../config/dev";
-import { setTimeout } from 'timers';
-
-
 
 export default {
   name: "Countries",
@@ -84,10 +81,7 @@ export default {
         const res = response.data;
         const iso = res.iso.toLowerCase();
          this.$router.push(`/index/${iso}`);
-      /*   setTimeout(() => {
-               this.$router.push(`/index/${iso}`);
-            }, 2000) */
-
+    
       })
       .catch(err => console.error(err))
       
