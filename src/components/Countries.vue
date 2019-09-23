@@ -7,11 +7,12 @@
         </a>
       </nav>
    </header>
+   <div class="container">
      <div class="bg">
-      <img src="../assets/ghana.jpg" alt="">
+      <img src="../assets/ghana.jpg" class="img-fluid" alt="">
      </div>
       <div class="row">
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 offset-xl-1 card-top">
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 card-top">
            <div class="card shadow">
             <div class="card-body">
                 <h1 class="card-title text-center">VisaGhana</h1>
@@ -37,8 +38,8 @@
          </div>
        </div>
       </div>
-     
-    </div>
+   </div>
+  </div>
 </template>
 
 <script>
@@ -117,7 +118,7 @@ export default {
 
 }
 .card-top{
-  margin-top:10%;
+  margin-top:20%;
 }
 
 </style>

@@ -2,7 +2,9 @@ import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
 import Index from "./views/Index.vue";
-import AboutUs from "./components/AboutUs.vue";
+import About from "./views/About.vue";
+import ContactUs from "./views/ContactUs.vue";
+import Services from "./views/Services.vue";
 
 Vue.use(Router);
 
@@ -17,14 +19,23 @@ export default new Router({
     },
     {
       path: "/index/:iso",
-      /*   path: "/index/:iso/:page", */
       name: "index",
       component: Index
     },
     {
-      path: "/index/:iso/about",
+      path: "/index/:iso/about-us",
       name: "about",
-      component: AboutUs
+      component: About
+    },
+    {
+      path: "/index/:iso/contact-us",
+      name: "contactus",
+      component: ContactUs
+    },
+    {
+      path: "/index/:iso/services",
+      name: "services",
+      component: Services
     }
   ]
 });

@@ -21,7 +21,7 @@
                     <img src="../assets/images/slider-large-2.jpg" alt="">
                     <div class="container">
                         <div class="row">
-                            <div class="col-xl-6 col-lg-6 col-sm-8 col-sm-12 col-12">
+                            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-12">
                                 <div class="slider-captions">
                                     <h1 class="slider-title">Immigration &amp; Visa Consultants</h1>
                                     <p class="slider-text">To be the leading Immigration consultancy firm in Ghana providing top notch services for clients.</p>
@@ -36,7 +36,7 @@
                         alt="Immigration Consulting Bootstrap Responsive Website Template">
                     <div class="container">
                         <div class="row">
-                            <div class="col-xl-6 col-lg-6 col-sm-8 col-sm-12 col-12">
+                            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-12">
                                 <div class="slider-captions">
                                     <h1 class="slider-title">World Most Trusted Immigration Consultancy</h1>
                                     <p class="slider-text">To help fast track resolutions for all immigration issues for our clients. </p>
@@ -92,7 +92,7 @@
                     <div class="offset-xl-2 col-xl-8 offset-lg-2 col-lg-8 col-md-12 col-sm-12 col-12 mb60">
                         <div class="section-title text-center">
                             <!-- section title start-->
-                            <h2 class="mb-20">We also offer help with immigration to </h2>
+                            <h2 class="mb-20">We are VisaGhana. </h2>
                             <p>Welcome to the website of the VisaGhana. We provide a wide range of services to meet the expectations of our clients.</p>
                         </div>
                         <!-- /.section title start-->
@@ -195,7 +195,7 @@
                         <p id="text-italic">VisaGhana is an immigration advisory firm, established by experienced and registered Immigration professionals, which provides purposefully curated, timely and personalized solutions to immigration issues to and from Ghana.</p>
                         <p>We ensure to carefully guide our clientele through an up to date web of rules, processes and forms on Ghana’s immigration regulations whilst aiming to uphold our values and ensuring the highest form of confidentiality to achieve a quick resolution on all Immigration issues. .
                         </p>
-                        <a href="#" class="btn btn-default">About VisaGhana</a> <a href="#"
+                        <a href="#" class="btn btn-primary mr-5">About VisaGhana</a> <a href="#"
                             class="btn btn-primary">Contact VisaGhana</a>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-5 col-sm-6 col-12">
@@ -244,9 +244,9 @@
                                 <div class="row">
                                     <div class="col-xl-3 col-lg-3 col-md-12 col-sm-4 col-12">
                                         <div class="testimonial-boxed-img">
-                                            <!-- <img src="images/testimonial-cirlce-img-4.jpg"
+                                            <img src="../assets/images/testimonial-cirlce-img-4.jpg"
                                                 alt="Creative and simple customer testimonial page design"
-                                                class="img-fluid rounded-circle"> -->
+                                                class="img-fluid rounded-circle">
                                         </div>
                                     </div>
                                     <div class="col-xl-9 col-lg-9 col-md-12 col-sm-8 col-12">
@@ -257,7 +257,7 @@
                                                     laboris orem ipsum dolor sit amet, consectetur dipi sicing elit,
                                                     simple sed do eiusmod Incididunt ut labore dolore magna aliquenim ad
                                                     minim lorem ipsum is veniam quis nostrud nisi ut greate experience
-                                                    with visapress.”</p>
+                                                    with .”</p>
                                             </div>
                                             <div class="testimonial-boxed-info">
                                                 <h4 class="testimonial-name text-white">Gary L. Ridder ( Total Score :

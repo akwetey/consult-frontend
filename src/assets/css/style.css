@@ -75,7 +75,11 @@ strong {
     font-weight: 400;
 }
 
-small {}
+li .router-link-exact-active {
+   background-color: #007bff;
+   cursor: pointer;
+   
+ }
 
 blockquote {
     font-family: 'PT Serif', serif;
@@ -763,6 +767,10 @@ address {}
     background-size: cover;
 }
 
+#bg-img{
+    background-image: url('../images/background-img.jpg');
+}
+
 
 
 .bg-gradient {
@@ -813,7 +821,7 @@ address {}
     border-right: 1px solid #fff;
 }
 
-.feature-block {}
+
 
 .feature-icon {
     font-size: 80px;
@@ -930,7 +938,7 @@ address {}
 }
 
 /*--- 4.9 Icon ---*/
-.icon {}
+
 
 .icon-1x {
     font-size: 19px;
@@ -2802,7 +2810,7 @@ img.grayscale:hover {
     padding: 120px 0px;
     margin: 0px;
     border-bottom: transparent;
-    /* background: url(../images/page-header.jpg) no-repeat center; */
+    background: url(../images/page-header.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -4741,7 +4749,7 @@ Landing Page Css
     transition-property: transform, opacity;
 }
 
-.portfolioContainer {}
+
 
 .portfolioFilter {
     margin-bottom: 30px;
@@ -5187,7 +5195,7 @@ Landing Page Css
         padding: 17px 5px;
         font-size: 14px;
         text-decoration: none;
-        color: #007bff;
+        color: #1c1e20;
         font-weight: 400;
     }
 
