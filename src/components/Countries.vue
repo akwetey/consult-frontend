@@ -71,6 +71,7 @@ export default {
       e.preventDefault();
       if (!this.iso) {
         // TODO: add validation message
+        this.$router.push("*")
         return;
       }
       const formData = {

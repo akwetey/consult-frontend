@@ -5,6 +5,7 @@ import Index from "./views/Index.vue";
 import About from "./views/About.vue";
 import ContactUs from "./views/ContactUs.vue";
 import Services from "./views/Services.vue";
+import NotFound from "./components/NotFound.vue";
 
 Vue.use(Router);
 
@@ -36,6 +37,11 @@ export default new Router({
       path: "/index/:iso/services",
       name: "services",
       component: Services
+    },
+    {
+      path: "*",
+      name: "notfound",
+      component: NotFound
     }
   ]
 });
