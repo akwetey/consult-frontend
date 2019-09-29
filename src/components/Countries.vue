@@ -52,7 +52,7 @@ export default {
   data() {
     return {
       countries: [],
-      iso: ""
+      iso: "",
     };
   },
 
@@ -67,31 +67,32 @@ export default {
       }
     },
    
-    navigateToPage(e) {
+     async navigateToPage(e) {
       e.preventDefault();
       if (!this.iso) {
         // TODO: add validation message
-        this.$router.push("*")
+       /*  this.$router.push("*") */
         return;
       }
       const formData = {
-        id:country.value
+        id:this.iso
       }
-      
-      axios.post(API_URL + `/country-iso` ,formData)
-      .then(response => {
-        const res = response.data;
+  
+     try{
+         const response = await axios.post(API_URL + `/country-iso` ,formData)
+        const res = await response.data;
+        //  console.table(res);
         const iso = res.iso.toLowerCase();
          this.$router.push(`/index/${iso}`);
-    
-      })
-      .catch(err => console.error(err))
-      
+     }
+     catch{
+       err => console.error(err)
+     }
     }
   },
 
-  created() {
-    this.getData();
+  async created() {
+    await this.getData();
   }
 };
 </script>
@@ -118,8 +119,8 @@ export default {
   min-height: 50%;
 
 }
-.card-top{
-  margin-top:20%;
+.card-top {
+  margin-top: 20%;
 }
 
 </style>

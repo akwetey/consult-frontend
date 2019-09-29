@@ -3,7 +3,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                        <p>Copyright © 2019  <a href="#">VisaGhana</a>. Built with <i class="fas fa-heart" style="color:red;"></i> by visaGhana All Rights Reserved.</p>
+                        <p>Copyright © <span id="date">2019 </span>  <a href="#">     VisaGhana</a>. Built with <i class="fas fa-heart" style="color:red;"></i> by visaGhana All Rights Reserved.</p>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                         <div class="footer-social-list">
@@ -23,7 +23,10 @@
 
 <script>
 export default {
-    name:"Footer"
+    name:"Footer",
+    mounted(){
+        document.querySelector('#date').innerHTML = new Date().getFullYear();
+    }
 }
 </script>
 
